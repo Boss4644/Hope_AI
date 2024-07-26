@@ -50,3 +50,19 @@ class multipleFunctions:
             print("Overweight")
         else:
             print("Very Over Weight")
+
+    def MarriageEligibility():
+        gen = input("Enter your gender: ")
+        age = int(input("Enter you age: "))
+        if(gen.lower() == 'male'):
+            if(age > 21):
+                print("ELIGIBLE")
+            else:
+                print("NOT ELIGIBLE")
+        elif(gen.lower() == 'female'):
+            if(age > 18):
+                print("ELIGIBLE")
+            else:
+                print("NOT ELIGIBLE")
+        else:
+            print("gender not found")
